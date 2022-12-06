@@ -8,6 +8,6 @@ def network_alert_stub(celcius):
         return 500
 def alert_in_celcius(farenheit):
     celcius = (farenheit - 32) * 5 / 9
-    returnCode = network_alert_stub(celcius)
-    if returnCode != 200:
+    temperature = network_alert_stub(celcius)
+    if temperature != 200:
        alert_failure_count += 1
