@@ -4,7 +4,7 @@ import configuration
 def testing():
     alerter.alert_in_celcius(303.6)  
     alerter.alert_in_celcius(231)    
-    alerter.alert_in_celcius(400.5)  
+    alerter.alert_in_celcius(500)  
     assert(configuration.alert_failure_count==1)
     return "Success!"
 
