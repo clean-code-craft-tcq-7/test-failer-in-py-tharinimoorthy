@@ -10,7 +10,7 @@ def size(cms):
 assert(size(38) == 'S')
 assert(size(37) == 'S')
 assert(size(43) == 'L')
-assert(size(42) == 'L')
+assert(size(42) == 'M')
 assert(size(41) == 'M')
 assert(size(50) == 'L')
 assert(size(7) == 'S')
