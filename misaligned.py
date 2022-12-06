@@ -35,10 +35,12 @@ result , output_string = get_output_string()
 print_color_map(output_string)
 assert(result == 25)
 
+
 output_list = output_string.splitlines()
 reference_index_list = find_indexes('|',output_list[0])
 for each_line in output_list:
     assert(find_indexes('|',each_line) == reference_index_list)
+
 
 assert(colorCode[str({"Red"} | {"Orange"})] == 7)
 assert(colorCode[str({"Violet"} | {"Green"})] == 23)
