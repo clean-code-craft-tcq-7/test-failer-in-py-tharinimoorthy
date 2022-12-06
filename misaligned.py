@@ -42,7 +42,7 @@ for each_line in output_list:
     assert(find_indexes('|',each_line) == reference_index_list)
 
 
-assert(colorCode[str({"Red"} | {"Orange"})] == 7)
+assert(colorCode[str({"Red"} | {"Orange"})] == 4)
 assert(colorCode[str({"Violet"} | {"Green"})] == 23)
 
 
