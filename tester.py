@@ -1,9 +1,9 @@
-import alerter
+from alerter import *
 import configuration
 def testing():
-     alerter.alert_in_celcius(100)  
-     alerter.alert_in_celcius(303.6)    
-     alerter.alert_in_celcius(400.5)  
+     alert_in_celcius(100.5)  
+     alert_in_celcius(303)    
+     alert_in_celcius(400)  
      assert(configuration.alert_failure_count==1)
      return "Success!"
 
@@ -11,3 +11,4 @@ def testing():
 if __name__ == "__main__":
      testing()
      print("All is well")    
+
