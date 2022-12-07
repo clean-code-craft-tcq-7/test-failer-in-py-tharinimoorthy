@@ -10,4 +10,5 @@ def testing():
 
      
 if __name__ == "__main__":
-   print("All is well")
+    testing()
+    print("All is well")
